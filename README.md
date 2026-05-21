@@ -37,19 +37,37 @@ Basta acessar o endereço https://www.controlserial.com/ e colocar o número de 
 
 ### x.2 - Principais Payloads
 
-| # | App | Descrição | Github |
+| # | Payload | Descrição | Github |
 |-|-|-|-|
-| x.1.1 | kstuff |  | https://github.com/EchoStretch/kstuff |
-| x.1.2 | etaHEN |  | https://github.com/etaHEN/etaHEN |
-| x.1.3 | ShadowMountPlus |  | https://github.com/drakmor/ShadowMountPlus |
-| x.1.4 | np-fake-signin |  | https://git.etawen.dev/earthonion/np-fake-signin/releases |
+| x.2.1 | kstuff | Payload responsável por permitir ao PS5 desbloqueado executar Homebrew (Apps), executar backups de jogos de PS4 (FPKG) e PS5 | https://github.com/EchoStretch/kstuff |
+| x.2.2 | etaHEN | É um AIO HEN (All-In-One Homebrew Enabler) para PS5, possuindo diversas capacidades como integração com kstuff, executar dumps de PS5(fpkg), PS5, plugins, Direct PKG Installer, Itemzflow, FTP server, Cheats, etc... | https://github.com/etaHEN/etaHEN |
+| x.2.3 | ShadowMountPlus | Montador de jogos de PS5 em segundo plano, responsável por pesquisar jogos em locais específicos e criar o ícone do jogo pronto pra jogar, suporta formato pasta, .exfat e .ffpkg, trabalha diretamente com o kstuff lite | https://github.com/drakmor/ShadowMountPlus |
+| x.2.4 | np-fake-signin | Responsável por fazer com que o PS5 ache que a conta de usuário já fez login na PSN (fake PSN) | https://git.etawen.dev/earthonion/np-fake-signin/releases |
+| x.2.5 | ftpsrv | Cria um servidor ftp no PS5 permitindo conectar por meio de outro dispositivo como por exemplo o PC para transferir arquivos para o PS5 | https://github.com/ps5-payload-|
+| x.2.6 | Websrv | Servidor web para PS5, utilizado para iniciar jogos e apps | https://github.com/ps5-payload-dev/websrv |
+| x.2.6 | dump_runner | Responsável por permitir a execução de jogos por meio do navegador do PS5, utilizado em conjunto com os payloads Websrv e Kstuff e o App Homebrew Launcher  | https://github.com/EchoStretch/dump_runner |
+dev/ftpsrv |
+| x.2.7 | BackPork | Responsável por fazer com que o PS5 reconheça que um jogo possui backport | https://github.com/BestPig/BackPork |
 
 ### x.3 - Principais Homebrews (Aplicativos)
 
 | # | App | Descrição | Github |
 |-|-|-|-|
-| x.1.1 | PS5-Xplorer |  | https://pkg-zone.com/details/LAPY20011 |
+| x.3.1 | PS5-Xplorer | Explorador de arquivos e pasta do PS5 no estilo Windows Explorer, por ele é possivel  | https://pkg-zone.com/details/LAPY20011 |
+| x.3.1 | Homebrew Launcher | Responsável por executar apps e jogos em uma interface de navegador  | https://github.com/ps5-payload-dev/websrv/raw/refs/heads/master/homebrew/IV9999-FAKE00000_00-HOMEBREWLOADER01.pkg |
 
+### x.4 - O que preciso saber sobre os backups (jogos) de PS5
+
+| # | Conhecimento sobre backups |
+|-|-|
+| x.4.1 | Todo jogo tem um firmware mínimo, ou seja, se o firmware minimo de um jogo é 5.00 ele não vai executar em um PS5 cujo firmware é 4.03 a não ser que seja inserido no jogo o chamado <b>Backport</b> |
+| x.4.2 |  |
+
+### x.5 - O que preciso saber sobre os backups (jogos) de PS5
+
+| # | Conhecimento sobre backports |
+|-|-|
+| x.5.1 | Para que um jogo funcione com backport o payload de backport deve estar em execução antes do jogo ser aberto |
 
 
 fonte da tabela de firmwares: https://www.psdevwiki.com/ps5/submit/Serial_Number_guide
