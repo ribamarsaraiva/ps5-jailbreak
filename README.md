@@ -16,17 +16,6 @@
 | 12.60 to 12.70 | Kqueueex ✅                                     | Debug settings✅<br>Etahen ❌<br>Kstuff ❌                                     | Webkit ❌<br>BD-JB ❌<br>mast1c0re✅<br>Lua ✅<br>Yarpe✅<br>Y2JB❌<br>Netflix 'n' hack❌       | USB drive ✅<br>M.2 up to 8 TB ✅<br>USB Extended Storage ✅                             |
 | 13.00 to 13.20 | N/A                                            | Debug settings ❌<br>Etahen ❌<br>Kstuff ❌                                    | Webkit ❌<br>BD-JB ❌<br>mast1c0re✅<br>Lua ✅<br>Y2JB❌<br>Netflix 'n' hack❌             | USB drive ✅<br>M.2 up to 8 TB ✅<br>USB Extended Storage ✅                             |
 
-
-<table>
-    <tr>
-        <td colspan="2">Merged Header</td>
-    </tr>
-    <tr>
-        <td>Cell 1</td>
-        <td>Cell 2</td>
-    </tr>
-</table>
-
 ## 2 - Como faço para saber em qual firmware o PS5 pode estar mesmo sem ligar o videogame?
 Basta acessar o endereço https://www.controlserial.com/ e colocar o número de serie que está na caixa lacrada do videogame (ex. S01-G2121W9D1234)
 
